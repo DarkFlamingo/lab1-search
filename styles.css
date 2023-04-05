@@ -1,0 +1,86 @@
+.title {
+  display: grid;
+  justify-content: center;
+}
+
+.title h1 {
+  width: 600px;
+  text-align: center;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#terms-section {
+  width: 900px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+
+#term-form {
+  width: 400px;
+  display: grid;
+}
+
+#term-form button {
+  margin-top: 10px;
+}
+
+#term-form button {
+  width: 100px;
+}
+
+#result-section {
+  display: grid;
+  justify-content: center; 
+}
+
+.search-section {
+  width: 500px;
+}
+
+.search-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+#document-next-stage-button {
+  margin-top: 30px;
+}
+
+#document-button {
+  margin-top: 10px;
+}
+
+#search-button {
+  margin-top: 10px;
+}
+
+#search-section {
+  max-width:800px;
+}
+
+.href {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-second {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.body-second {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}

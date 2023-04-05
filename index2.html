@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Векторно-просторова модель</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body-second">
+  <div class="title">
+    <h1>Режим з використанням векторно-просторової моделі</h1>
+  </div>
+  <section class="main main-second">
+    <div>
+      <div class="result-section" id="documention-result-section">
+        <h2>Додані документи</h2>
+        <div id="documention-result"></div>
+      </div>
+    </div>
+    <div>
+      <div id="documents-section" class="subsection">
+        <h2>Введіть колекцію документів</h2>
+        <form id="document-form">
+          <input class="form-control" type="text" id="document" />
+          <button class="btn btn-secondary" id="document-button" type="submit">Зберегти документ</button>
+        </form>
+        <button class="btn btn-secondary" id="document-next-stage-button" type="submit">
+          Перейти до наступного кроку
+        </button>
+      </div>
+      <div id="search-section" class="subsection">
+        <h2>Введіть пошуковий запит</h2>
+        <form id="search-form">
+          <input class="form-control" type="text" id="search" />
+          <button class="btn btn-secondary" id="search-button" type="submit">Пошук</button>
+        </form>
+        <div class="result-section" id="search-result-section">
+          <h2>Пошуковий запит:</h2>
+          <div id="search-query"></div>
+          <h2>Граничне значення подібності:</h2>
+          <div>0.1</div>
+          <h2>Результат пошуку:</h2>
+          <div id="search-result"></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <div class="href">
+    <a href="./index.html">Стандартна булева модель</a>
+  </div>
+  <script type="text/javascript" src="./index2.js"></script>
+</body>
+
+</html>
